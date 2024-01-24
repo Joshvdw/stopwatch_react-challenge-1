@@ -1,10 +1,39 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+}
+
+.timer_wrapper {
+  text-align: center;
+}
+
+.btn_container {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.button_wrapper {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn_green {
+  background-color: darkgreen;
+}
+
+.btn_yellow {
+  background-color: rgb(149, 146, 1);
+}
+
+.btn_red {
+  background-color: rgb(100, 0, 0);
 }
 
 .description {
